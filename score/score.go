@@ -1,7 +1,6 @@
-package main
+package score 
 
-import ("strings"
-		"fmt")
+import ("strings")
 
 //package to calculate scores and rank them
 //What metrics to use to calcualte scores?
@@ -92,7 +91,6 @@ func findSepar(focus string, input string) int {
 		}
 
 		for _, inpt := range temp {
-			fmt.Println(inpt)
 			score = score + findContig(focus, inpt)
 		}
 	}
@@ -101,10 +99,10 @@ func findSepar(focus string, input string) int {
 }
 
 
-func main() {
+/*func main() {
 	fmt.Println(findSepar("a Bc", "abc"))
 	fmt.Println(findContig("a Bc","abc"))
 	fmt.Println(findMatch("a Bc","abc"))
 
 	fmt.Println(Accumulator("a Bc", "abc"))
-}
+}*/

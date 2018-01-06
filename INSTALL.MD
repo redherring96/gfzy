@@ -4,3 +4,4 @@ STEP 2:   Navigate to your $GOPATH directory, usually ~/go. If this directory do
 STEP 3:   Navigate to $GOPATH/src and run git clone https://github.com/redherring96/gfzy
 STEP 4:   Navigate to the score directory and run go build. if there are no errors, run go install. do the same thing in the rank directory
 STEP 5:   At this point, the required packages are now installed on your machine
+a
